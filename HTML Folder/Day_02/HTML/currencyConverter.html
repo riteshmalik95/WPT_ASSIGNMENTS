@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title> Currency Converter</title>
+        <script src="./JavaScript/Currency1.js"> </script>
+    </head>
+    <body>
+     <input type="Number" placeholder="Enter Amount" id="text1"
+     onblur="func1()">
+
+     <br>
+     <br>
+     <select id="s1" onchange="func1()"> 
+    <option> Select Currency </option>
+    <option value="Dollar">&#36;</option>
+    <option value="Rupee">&#8377;</option>
+    <option value="Pound">&#163;</option>
+    <option value="Euro">&#8364;</option>
+    </select>
+    <br>
+    <br>
+
+        <select id="s2" onchange="func1()"> 
+        <option> Select Currency </option>
+        <option value="Dollar">&#36;</option>
+        <option value="Rupee">&#8377;</option>
+        <option value="Pound">&#163;</option>
+        <option value="Euro">&#8364;</option>
+        </select>
+        <br>
+        <br>
+
+        <div> 
+        Result: <span id="sp1">
+
+        </span>
+        </div>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(251, 240, 225);
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+select{
+   padding: 5px; 
+   width: 150px;
+}
+input{
+    padding: 5px;
+    border: 2px solid blueviolet;
+}
+option{
+    /* text-align: right; */
+    background-color: azure;
+
+}
+option:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+div{
+    border: 2px solid red;
+    width: fit-content;
+    align-items:self-end;
+}
